@@ -159,14 +159,14 @@ main{
     /* border: 10px solid red; */
   }
   
-  .image-cont{
+  .image-cont-1{
     max-width: 45%;
   }
   
-  .image-cont img{
+  .image-cont-1 img{
     height: 500px;
     border-radius: 10px;
-    /* padding-right: 100px; */
+    padding-right: 100px;
   }
   
   /* @media(max-width: 768px){
@@ -573,29 +573,17 @@ main{
   /* prince ke section  */
 
 
-  /* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
   
-  body{
-    font-family: sans-serif;
-    margin-top: 20px;
-  } */
   
   .fifth-stage{
-    /* width: 90%; */
-    /* padding: 50px; */
     margin: auto;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
 
-    gap: 20px;
   }
   
-  .text-cont{
+  .text-cont-1{
     max-width: 40%;
   }
   
@@ -603,11 +591,11 @@ main{
     color: orangered;
   }
   
-  .text-cont h1{
+  .text-cont-1 h1{
     font-size: 42px;
   }
   
-  .text-cont p{
+  .text-cont-1 p{
     margin-top: 10px;
     font-size: 18px;
     color: darkgrey;
