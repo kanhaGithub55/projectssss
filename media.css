@@ -1,4 +1,3 @@
-/* vc  */
 
 
 @media (max-width: 767px) {
@@ -41,8 +40,66 @@
 
 
 
-
-
+  @media(max-width : 567px) {
+    .second-box h1 {
+        font-size: 32px;
+    }
+    .second-box .card-container {
+        flex-direction: column;
+        align-items: first baseline;
+        padding: 25px;
+    }
+  
+    .third-box {
+        flex-direction: column;
+        gap: 0;
+        padding: 30px 20px;
+        /* border: 1px solid red; */
+    }
+    .third-box img {
+        width: 280px;
+    }
+  
+    .third-box #front-image {
+        width: 180px;
+        border: 2px solid whitesmoke;
+        position: relative;
+        top: -80px;
+        left: 170px;
+    }
+  
+    .third-box .head {
+        width: 100%;
+        padding: 10px;
+    }
+    .third-box .head h2 {
+        font-size: 28px;
+    }
+    .third-box .head .small-midsize button {
+        padding: 10px;
+    }
+    
+  }
+  
+  @media(max-width : 768px) {
+    .second-box h1 {
+        font-size: 38px;
+    }
+  
+    .second-box .card-container {
+  
+        flex-direction: column;
+        align-items: start;
+        padding: 30px;
+    }
+  
+    .third-box  {
+        flex-direction: column;
+        gap: 0;
+        padding: 30px 20px;
+    }
+  
+  }
 
 
   @media(max-width: 768px){
@@ -77,12 +134,11 @@
 
 
 
-  /* javad */
 
 
     
 @media (max-width : 768px) {
-    .five{
+    .five-1{
         width: 100%;
         flex-direction: column;
         padding: 20px 0px;
@@ -113,10 +169,7 @@
   
     .multiple-card .card-container {
         flex-direction: column;
-        /* justify-content: start; */
-        /* display: flex; */
-        /* justify-content: center; */
-        /* align-items: center; */
+      
         padding: 40px 0px;
         gap: 20px;
     }
@@ -137,10 +190,6 @@
    
   }
 
-  
-  /* kanhaiya section  */
-
-
 
 @media (max-width : 768px) {
 
@@ -159,18 +208,14 @@
   
   
     .seventh .const-7 h1{
-        /* width: 50%; */
         width: 60%;
-        /* margin: auto; */
-        /* text-align: center; */
     }
   
   
     .seventh .const-7 .head-para{
         max-width: 80%;
     
-        /* margin: 20px auto;
-        text-align: center; */
+       
     }
   
   
@@ -190,27 +235,22 @@
   }
 
 
-
-
-  /* prince  */
-
-
   @media(max-width: 720px){
     .fifth-stage{
       display: block;
     }
   
     
-  .text-cont h1{
+  .text-cont-1 h1{
     font-size: 32px;
   }
   
-  .text-cont{
+  .text-cont-1{
     max-width: 100%;
     margin: auto;
   }
   
-  .text-cont p{
+  .text-cont-1 p{
     font-size: 14px;
     font-weight: 600;
   }

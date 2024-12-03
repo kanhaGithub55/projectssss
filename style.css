@@ -18,7 +18,6 @@ main{
   #first {
     padding-block: 20px;
     font-family: sans-serif;
-    /* border: 10px solid red; */
   }
   
  
@@ -70,48 +69,7 @@ main{
     display: none;
   }
   
-  /* @media (max-width: 767px) {
-    #first nav {
-      flex-direction: column;
-    }
   
-    #first ul {
-      display: none;
-      width: 100%;
-      margin-top: 10px;
-      flex-direction: column;
-      align-items: flex-end;
-    }
-  
-    #first ul.active {
-      display: flex;
-    }
-  
-    #first .hamb {
-      display: block;
-      cursor: pointer;
-      font-size: 24px;
-    }
-  
-    #first .logo-box {
-      display: flex;
-      width: 100%;
-      align-items: center;
-      justify-content: space-between;
-    }
-  } */
-  
-  /* @media (max-width: 1035px) {
-    #first ul {
-      flex-wrap: wrap;
-    }
-  } */
-
-  
-  /* main{ */
-    /* width: 90%; */
-    /* margin: auto; */
-  /* } */
   
   #different{
     color: orangered;
@@ -156,6 +114,7 @@ main{
   .joint{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 25px;
     /* border: 10px solid red; */
   }
   
@@ -169,48 +128,142 @@ main{
     padding-right: 100px;
   }
   
-  /* @media(max-width: 768px){
-    .joint{
-      display: block;
-    }
-    .text-side{
-      max-width: 100%;
-    }
-    .text-cont{
-      font-size: 22px;
-    }
-    .heading img{
-      margin: 0;
-      display: none;
-    }
-    .text-cont p{
-      font-size: 16px;
-    }
-    .image-cont{
-      max-width: 100%;
-    }
-    .image-cont img{
-      height: 400px;
-      width: 350px;
-      margin-top: 30px;
-      border-radius: 10px;
-    }
-  
-  } */
 
 
 
+   
+.second-box h1 {
+  text-align: center;
+  font-size: 48px;
+}
+.second-box span {
+  color: rgba(238, 50, 25, 0.938);
+}
 
-  /* ankit ke dwara */
+.second-box .card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+  gap: 20px;
+}
+
+.second-box .card-container .card {
+  width: 160px;
+  height: 160px;
+  border-radius: 12px;
+}
+
+.second-box .card-container .card img {
+  width: 50px;
+  margin: 1rem;
+}
+
+.second-box .card-container .card p {
+  width: 150px;
+  padding: 5px 10px;
+  /* border: 1px solid red; */
+  color: white;
+
+}
+
+.second-box .card-container .first {
+  background-color: rgb(233, 120, 154);
+}
+
+.second-box .card-container .second {
+  background-color: rgb(111, 111, 243);
+}
+
+.second-box .card-container .third {
+  background-color: skyblue;
+}
+
+.second-box .card-container .four {
+  background-color: rgb(201, 201, 75);
+}
+
+.second-box .card-container .five {
+  width: 125px;
+  background-color: orange;
+  /* border: 1px solid red; */
+}
+
+#first-second {
+  display: flex;
+  gap: 20px;
+}
+
+#third-four {
+  display: flex;
+  gap: 20px;
+}
+
+/* ============== third box  ============= */
+
+.third-box {
+  display: flex;
+  gap: 40px;
+  padding: 50px 70px 0px 70px;
+  /* border: 1px solid red; */
+}
+
+.third-box img {
+  border-radius: 14px;
+}
+
+.third-box #front-image {
+  width: 300px;
+  border: 2px solid whitesmoke;
+  position: relative;
+  top: -150px;
+  left: 260px;
+}
+
+.third-box .head {
+  width: 60%;
+  padding: 25px;
+  /* border: 1px solid red; */
+}
+
+.third-box .head h2 {
+  font-size: 38px;
+  /* border: 1px solid red; */
+}
+
+.third-box .head h2 span {
+  color: rgba(238, 50, 25, 0.938);
+}
+
+.third-box .head .small-midsize {
+  display: flex;
+  padding: 20px 10px ;
+  gap: 20px;
+  /* border: 1px solid red; */
+}
+
+.third-box .head .small-midsize button {
+  background: none;
+  border: 1px solid rgba(238, 50, 25, 0.938);;
+  color: rgba(238, 50, 25, 0.938);;
+  padding: 10px 16px;
+  border-radius: 5px;
+}
+
+.third-box .head .small-midsize button:hover {
+  background: rgb(243, 97, 12);
+  color: white;
+
+}
 
 
 
-.five{
+.five-1{
   /* width: 90%; */
   margin: auto;
   display: flex;
   justify-content: space-between;
-  padding: 50px 0px;
+  /* padding: 50px 0px; */
 }
 .reason-para {
   padding: 20px 30px;
@@ -234,7 +287,7 @@ main{
   width: 550px;
 }
 
-.five .reason-para .watch {
+.five-1 .reason-para .watch {
   display: flex;
   align-items: center;
   padding: 20px 0px;
@@ -242,7 +295,7 @@ main{
   /* border: 1px solid red; */
 }
 
-.five .reason-para .watch img {
+.five-1 .reason-para .watch img {
   width: 40px;
 }
 
@@ -345,83 +398,7 @@ main{
   margin-inline: auto;
 }
   
-/* @media (max-width : 768px) {
-  .five{
-      width: 100%;
-      flex-direction: column;
-      padding: 20px 0px; */
-      /* border: 10px solid red; */
 
-  /* } */
-
-  /* .metting-image img{
-      border-radius: 12px;
-      width: 335px;
-      display: flex;
-      margin-inline: auto;
-  } */
-
-  /* ------- six  -------- */
-
-  /* .multiple-card {
-      padding: 20px 0px; */
-      /* border: 10px solid red; */
-  /* } */
-  /* .multiple-card .heading-two {
-      padding: 20px;
-      text-align: start;
-  }
-  .multiple-card .heading-two p {
-      text-align: start;
-  }
-
-  .multiple-card .card-container {
-      flex-direction: column; */
-      /* justify-content: start; */
-      /* display: flex; */
-      /* justify-content: center; */
-      /* align-items: center; */
-      /* padding: 40px 0px;
-      gap: 20px;
-  }
-
-  .multiple-card .card-container .card {
-      width: 250px;
-      height: 140px;
-      padding: 20px 40px;
-  }
-
-  .multiple-card .card-container .fives {
-      height: 100px;
-  }
-
-  .multiple-card #learn-button {
-      padding: 15px 20px;
-  }
- 
-} */
-
-
-
-
-/* kahaiya section -------------- */
-
-/* 
-*{
-  box-sizing: border-box; 
-  margin: 0px;
-  padding: 0px;
-} */
-
-/* .seventh{ */
-  /* width: 100%; */
-/* } */
-
-/* .seventh .const-7{ */
-  /* width: 90%; */
-  /* align-items: center; */
-  /* margin: auto; */
-/* } */
 
 .seventh .const-7 h1{
   width: 50%;
@@ -518,65 +495,10 @@ main{
 
 }
 
-
-
-
-
-/* @media (max-width : 768px) {
-
-  .seventh .const-7 h1{
-      font-size: 27px;
-  }
-
-  .seventh .const-7 .card-sec{
-      flex-direction: column;
-      
-  }
-
-  .seventh .const-7 .card-sec .card-section {
-      margin: auto;
-  } */
-
-
-  /* .seventh .const-7 h1{ */
-      /* width: 50%; */
-      /* width: 60%; */
-      /* margin: auto; */
-      /* text-align: center; */
-  /* } */
-
-
-  /* .seventh .const-7 .head-para{ */
-      /* max-width: 80%; */
-  
-      /* margin: 20px auto;
-      text-align: center; */
-  /* } */
-/* } */
-
-/* @media (max-width : 567px) {
-
-  .seventh .const-7 h1{
-      font-size: 20px;
-  }
-
-  .seventh .const-7 .buttons .more-button{
-      font-size: 13px;
-  }
-} */
-
-
-
-
-
-
-  /* prince ke section  */
-
-
-  
   
   .fifth-stage{
     margin: auto;
+    margin: 50px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -604,10 +526,6 @@ main{
   
   .image-cont img{
     border-radius: 10px;
-
-
-    /* max-width: 600px; */
-    /* border-radius: 50px; */
   }
   
   #more{
@@ -698,65 +616,5 @@ main{
     color: white;
     margin-bottom: 10px;
   }
-/*   
-  @media(max-width: 720px){
-    .fifth-stage{
-      display: block;
-    }
-  
-    
-  .text-cont h1{
-    font-size: 32px;
-  }
-  
-  .text-cont{
-    max-width: 100%;
-    margin: auto;
-  }
-  
-  .text-cont p{
-    font-size: 14px;
-    font-weight: 600;
-  }
-  
-  .image-cont img{
-    max-width: 350px;
-    margin-top: 20px;
-  }
-  
-  Footer{
-    margin-top: 50px;
-    display: block;
-    padding: 30px 0px;
-  }
-  
-  .footer-cont{
-    margin-left: 20px;
-  }
-  
-  .right-content{
-    display: block;
-    margin-top: 50px;
-    margin-left: 20px;
-  }
-  
-  .all-images{
-    gap: 15px;
-  }
-  
-  .first-content{
-    width: 95%;
-  }
-  
-  .second-content h3{
-    margin-top: 30px;
-  }
-  
-  .third-content h3{
-    margin-top: 30px;
-  }
-  
-  
-  } */
-  
+
   
