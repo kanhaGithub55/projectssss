@@ -11,9 +11,6 @@ main{
     margin: auto;
    }
 
-
-
-
   
   #first {
     padding-block: 20px;
@@ -77,6 +74,7 @@ main{
   
   .text-side{
     max-width: 45%;
+    padding-top: 30px;
   }
   
   .text-cont{
@@ -144,7 +142,7 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 40px 0px; */
+  padding: 40px 0px;
   gap: 20px;
 }
 
@@ -192,12 +190,15 @@ main{
 
 #first-second {
   display: flex;
-  gap: 20px;
+  gap: 30px;
+  /* justify-content: space-between; */
 }
 
 #third-four {
   display: flex;
-  gap: 20px;
+  /* justify-content: space-between; */
+
+  gap: 30px;
 }
 
 /* ============== third box  ============= */

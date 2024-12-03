@@ -49,6 +49,19 @@
         align-items: first baseline;
         padding: 25px;
     }
+
+    #first-second {
+      /* display: flex; */
+      gap: 20px;
+      /* justify-content: space-between; */
+    }
+    
+    #third-four {
+      /* display: flex; */
+      /* justify-content: space-between; */
+    
+      gap: 20px;
+    }
   
     .third-box {
         flex-direction: column;
@@ -260,6 +273,7 @@
   .image-cont img{
     max-width: 300px;
     margin-top: 20px;
+    /* max-height: 200px; */
   }
   
   Footer{
